@@ -18421,7 +18421,7 @@ select:invalid {
   }
   /* line 1244, src/assets/scss/custom/_style.scss */
   .action-btns a:first-of-type {
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
   }
 }
 
