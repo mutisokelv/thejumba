@@ -316,6 +316,8 @@
                         </div>
                     </div>
                 </div>
+
+
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-5 col-md-12 order-1 order-lg-0">
                         <div class="img-wrap" data-aos="fade-up" data-aos-delay="50">
@@ -323,43 +325,133 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 order-0 order-lg-1">
-                        <ul class="work-process-list list-unstyled">
-                            <li class="d-flex align-items-start mb-4" data-aos="fade-up" data-aos-delay="50">
-                                <div class="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
-                                    <i class="fa-solid fa-headset fa-2xl"></i>
-                                </div>
-                                <div class="icon-content">
-                                    <span class="text-primary h6">Step 1</span>
-                                    <h3 class="h5 mb-2">Sign up</h3>
-                                    <p>Click the "Get Started" button or reach out to us for onboarding
-                                    </p>
-                                </div>
+                        <ul class="nav nav-pills mb-5" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="hardware-tab" data-bs-toggle="pill"
+                                    data-bs-target="#hardware" type="button" role="tab" aria-controls="hardware"
+                                    aria-selected="true">
+                                    Hardware Stores
+                                </button>
                             </li>
-                            <li class="d-flex align-items-start mb-4" data-aos="fade-up" data-aos-delay="100">
-                                <div class="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
-                                    <i class="fa-solid fa-cart-shopping fa-2xl"></i>
-                                </div>
-                                <div class="icon-content">
-                                    <span class="text-primary h6">Step 2</span>
-                                    <h3 class="h5 mb-2">Place order</h3>
-                                    <p>Once onboarded, you can place an order on the Jumba Website
-                                    </p>
-                                </div>
-                            </li>
-                            <li class="d-flex align-items-start mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
-                                <div class="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
-                                    <i class="fa-solid fa-mobile-button fa-2xl"></i>
-                                </div>
-                                <div class="icon-content">
-                                    <span class="text-primary h6">Step 3</span>
-                                    <h3 class="h5 mb-2">Delivery</h3>
-                                    <p>The construction materials will be delivered to you.
-                                    </p>
-                                </div>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="construction-tab" data-bs-toggle="pill"
+                                    data-bs-target="#construction" type="button" role="tab" aria-controls="construction"
+                                    aria-selected="false">
+                                    <i class="icofont-bag-alt"></i>
+                                    Construction Companies and Developers
+                                </button>
                             </li>
                         </ul>
+
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="hardware" role="tabpanel"
+                                aria-labelledby="hardware-tab">
+                                <ul class="work-process-list list-unstyled">
+                                    <li class="d-flex align-items-start mb-4" data-aos="fade-up" data-aos-delay="50">
+                                        <div class="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
+                                            <i class="fa-solid fa-headset fa-2xl"></i>
+                                        </div>
+                                        <div class="icon-content">
+                                            <span class="text-primary h6">Step 1</span>
+                                            <h3 class="h5 mb-2">Sign up</h3>
+                                            <p>Click the "Get Started" button or reach out to us for onboarding
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex align-items-start mb-4" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
+                                            <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+                                        </div>
+                                        <div class="icon-content">
+                                            <span class="text-primary h6">Step 2</span>
+                                            <h3 class="h5 mb-2">Place order</h3>
+                                            <p>Once onboarded, you can place an order on the Jumba Website
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex align-items-start mb-4 mb-lg-0" data-aos="fade-up"
+                                        data-aos-delay="200">
+                                        <div class="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
+                                            <i class="fa-solid fa-mobile-button fa-2xl"></i>
+                                        </div>
+                                        <div class="icon-content">
+                                            <span class="text-primary h6">Step 3</span>
+                                            <h3 class="h5 mb-2">Delivery</h3>
+                                            <p>The construction materials will be delivered to you.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-pane fade" id="construction" role="tabpanel"
+                                aria-labelledby="construction-tab">
+                                <ul class="work-process-list list-unstyled">
+                                    <li class="d-flex align-items-start mb-4" data-aos="fade-up" data-aos-delay="50">
+                                        <div class="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
+                                            <i class="fa-solid fa-headset fa-2xl"></i>
+                                        </div>
+                                        <div class="icon-content">
+                                            <span class="text-primary h6">Step 1</span>
+                                            <h3 class="h5 mb-2">Get Quote</h3>
+                                            <p> Request for a quote through <span
+                                                    class="fw-bold">info@thejumba.com.</span>
+                                                State product, preferred brand if any and quantity</p>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex align-items-start mb-4" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
+                                            <i class="fa fa-money fa-2xl"></i>
+                                        </div>
+                                        <div class="icon-content">
+                                            <span class="text-primary h6">Step 2</span>
+                                            <h3 class="h5 mb-2">Get Prices</h3>
+                                            <p>Receive our competitive prices</p>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex align-items-start mb-4" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
+                                            <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+                                        </div>
+                                        <div class="icon-content">
+                                            <span class="text-primary h6">Step 3</span>
+                                            <h3 class="h5 mb-2">Place Order</h3>
+                                            <p>Once you place an order, receive all your products in one truck order.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex align-items-start mb-4" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
+                                            <i class="fa fa-money fa-2xl"></i>
+                                        </div>
+                                        <div class="icon-content">
+                                            <span class="text-primary h6">Step 4</span>
+                                            <h3 class="h5 mb-2">Payment Options</h3>
+                                            <p>Available payment options are Mpesa Paybill, Pesalink to our bank
+                                                account, or a
+                                                Bank RTGS.</p>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex align-items-start mb-4 mb-lg-0" data-aos="fade-up"
+                                        data-aos-delay="200">
+                                        <div class="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
+                                            <i class="fa-solid fa-mobile-button fa-2xl"></i>
+                                        </div>
+                                        <div class="icon-content">
+                                            <span class="text-primary h6">Step 5</span>
+                                            <h3 class="h5 mb-2">Delivery</h3>
+                                            <p>Receive your goods as per agreed schedule.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
+
+
             </div>
         </section>
         <!--how it works end-->
@@ -626,21 +718,21 @@
                                     <h2>Payment Info</h2>
                                     <br>
                                     <p>
-                                        <h4>Mpesa</h4>
-                                        Paybill: 4096829 <br>
-                                        Account no. (Your jumba order number)
+                                    <h4>Mpesa</h4>
+                                    Paybill: 4096829 <br>
+                                    Account no. (Your jumba order number)
                                     </p>
                                     <p>
-                                        <h4>Pesalink or RTGS</h4>
-                                        Equity Bank: 
-                                        Account No. 0550283014032
-                                        Branch: Westlands<br>
-                                        Stanbic Bank: 
-                                        Account No. 0100009561603 <br>
-                                        DTB Bank: Account No. 0764385001
-                                        Ronald Ngala Branch <br>
+                                    <h4>Pesalink or RTGS</h4>
+                                    Equity Bank:
+                                    Account No. 0550283014032
+                                    Branch: Westlands<br>
+                                    Stanbic Bank:
+                                    Account No. 0100009561603 <br>
+                                    DTB Bank: Account No. 0764385001
+                                    Ronald Ngala Branch <br>
                                     </p>
-                                    <p>Reference (Your Jumba order number)</p>                                
+                                    <p>Reference (Your Jumba order number)</p>
                                 </div>
 
                             </div>

@@ -22404,3 +22404,10 @@ i {
 
 /*# sourceMappingURL=../../../scss */
 /*# sourceMappingURL=main.css.map */
+
+
+
+/* How it works  - Edit by Michelle on 25-Sept 2022 */
+.nav-pills .nav-link.active{
+  background: var(--bs-primary)
+}
