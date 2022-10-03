@@ -22411,3 +22411,22 @@ i {
 .nav-pills .nav-link.active{
   background: var(--bs-primary)
 }
+
+/* prices - Edit by Michelle on 03-Oct 2022 */
+.iframeclass {
+  width: 100%;
+}
+
+.iframecontainer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 61%;
+}
+
+#doc-title{
+  display: none !important;
+}
+#doc-title{
+  display: none !important;
+}
