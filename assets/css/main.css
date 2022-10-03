@@ -22424,9 +22424,12 @@ i {
   padding-top: 61%;
 }
 
-#doc-title{
+span .name{
   display: none !important;
+  visibility: hidden !important;
 }
+
 #doc-title{
-  display: none !important;
+    display: none !important;
+    visibility: hidden !important;
 }
